@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HomepageController">
+   <children>
+      <Button fx:id="paybills" layoutX="379.0" layoutY="105.0" mnemonicParsing="false" onAction="#goToPayBills" prefHeight="30.0" prefWidth="210.0" style="-fx-background-color: #2859ad;" text="Pay Bills" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="BuyItems" layoutX="379.0" layoutY="157.0" mnemonicParsing="false" onAction="#goToBuyItems" prefHeight="30.0" prefWidth="210.0" style="-fx-background-color: #2859ad;" text="Buy Items" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="TransferMoney" layoutX="379.0" layoutY="203.0" mnemonicParsing="false" onAction="#goToTransferMoney" prefHeight="30.0" prefWidth="210.0" style="-fx-background-color: #2859ad;" text="Transfer Money" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="BankStatement" layoutX="379.0" layoutY="254.0" mnemonicParsing="false" onAction="#goToBankStatement" prefHeight="30.0" prefWidth="210.0" style="-fx-background-color: #2859ad;" text="Statement of Bank Account" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <AnchorPane prefHeight="500.0" prefWidth="286.0" style="-fx-background-color: #2859ad;">
+         <children>
+            <Text fill="WHITE" layoutX="72.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Online Bank" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Text layoutX="439.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Services">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Button fx:id="depositButton" layoutX="379.0" layoutY="299.0" mnemonicParsing="false" onAction="#goToDeposit" prefHeight="30.0" prefWidth="210.0" style="-fx-background-color: #2859ad;" text="Deposit" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="withdrawButton" layoutX="379.0" layoutY="345.0" mnemonicParsing="false" onAction="#goToWithdraw" prefHeight="30.0" prefWidth="210.0" style="-fx-background-color: #2859ad;" text="Withdraw" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="accontbalanceLabel" alignment="CENTER" layoutX="484.0" layoutY="391.0" prefHeight="35.0" prefWidth="171.0" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="showBalanceButton" layoutX="317.0" layoutY="394.0" mnemonicParsing="false" onAction="#showBalanceButtonOnAction" prefHeight="30.0" prefWidth="124.0" style="-fx-background-color: #2859ad;" text="Show Balance" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="LogoutButton" layoutX="422.0" layoutY="446.0" mnemonicParsing="false" onAction="#LogOutButtonOnAction" prefHeight="30.0" prefWidth="124.0" style="-fx-background-color: #2859ad;" text="Logout" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
